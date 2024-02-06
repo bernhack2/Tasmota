@@ -44,7 +44,7 @@
 #define W1_READ_SCRATCHPAD   0xBE
 
 #ifndef DS18X20_MAX_SENSORS         // DS18X20_MAX_SENSORS fallback to 8 if not defined in user_config_override.h
-#define DS18X20_MAX_SENSORS  8
+#define DS18X20_MAX_SENSORS  12
 #endif
 
 #define DS18X20_ALIAS_LEN    17
